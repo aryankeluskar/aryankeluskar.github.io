@@ -59,12 +59,12 @@ p#cyan, p#pink{
 
 p#cyan{
     color: cyan;
-    top: 62.7%;
+    top: 62.75%;
     z-index: 9;
 }
 p#pink{
     color: #ff00ff;
-    top: 63.3%;
+    top: 63.25%;
     z-index: 10;
 }
 
