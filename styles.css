@@ -10,9 +10,12 @@
     /* add animation later */
 }
 
+#app{
+    background-image: url(back.png);
+}
+
 #hey{
-    background-image:url(back.png);
-    height: 91vh;
+    height: 100vh;
     width: 100%;
 }
 
@@ -37,11 +40,12 @@ p#name{
     text-shadow: 0.15em -0.03em 0.2em black;
 }
 
+
 p#liner{
     font-family: "Open Sans Light";
     color: white;
     position: absolute;
-    top: 63%;
+    top: 65vh;
     left: 5%;
     font-size: 1.902em;
     z-index: 11;
@@ -51,7 +55,6 @@ p#cyan, p#pink{
     font-family: "Open Sans Light";
     color: white;
     position: absolute;
-    top: 63%;
     left: 5%;
     font-size: 1.902em;
     /* z-index: 15; */
@@ -59,14 +62,42 @@ p#cyan, p#pink{
 
 p#cyan{
     color: cyan;
-    top: 62.8%;
+    top: 64.77vh;
     z-index: 9;
 }
 p#pink{
     color: #ff00ff;
-    top: 63.25%;
+    top: 65.22%;
     z-index: 10;
 }
+
+div#about{
+    height: 90vh;
+    width: 100%;
+}
+
+p#habt{
+    font-size: 3.626em;
+    color: whitesmoke;
+    opacity: 0.75;
+    font-family: "Open Sans Extrabold";
+    margin-left: 5%;
+    /* padding-top: 5%; */
+    /* font-weight: 800; */
+}
+
+p#abt, p#edu, p#edd{
+    margin-left: 5%;
+    margin-right: 20%;
+    color: #f6f6f6;
+    font-size: 1.86em;
+    text-shadow: 0 0.1em 0.1em #000;
+    font-family: text;
+}
+
+
+
+
 
 @font-face {
     font-family: name;
@@ -81,6 +112,16 @@ p#pink{
     font-style:normal;
 }
 
+@font-face {
+    font-family:"Open Sans Extrabold";
+    src: url(OpenSans-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: text;
+    src: url(GlacialIndifference-Regular.otf);
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
 
 .noselect {
@@ -91,4 +132,26 @@ p#pink{
           -ms-user-select: none; /* Internet Explorer/Edge */
               user-select: none; /* Non-prefixed version, currently
                                     supported by Chrome, Edge, Opera and Firefox */
+  }
+
+  @media only screen and (max-width: 710px) {
+    p#name {
+        top: 43%;
+        font-size: 3em;
+    }
+    p#ht{
+        font-size: 1.98em;
+    }
+  }
+
+  @media only screen and (max-width: 415px) {
+    p#name {
+        font-size: 3em;
+    }
+    p#ht{
+        font-size: 1.68em;
+    }
+    #liner, #cyan, #pink{
+        font-size: 1.6em !important;
+    }
   }
