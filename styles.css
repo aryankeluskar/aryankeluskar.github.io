@@ -49,27 +49,13 @@ p#liner{
     left: 5%;
     font-size: 1.902em;
     z-index: 11;
+    text-shadow: 0 0.03em 0 cyan, 0 -0.04em 0 #f0f;
 }
 
-p#cyan, p#pink{
-    font-family: "Open Sans Light";
-    color: white;
-    position: absolute;
-    left: 5%;
-    font-size: 1.902em;
-    /* z-index: 15; */
-}
 
-p#cyan{
-    color: cyan;
-    top: 64.77vh;
-    z-index: 9;
-}
-p#pink{
-    color: #ff00ff;
-    top: 65.22%;
-    z-index: 10;
-}
+
+
+
 
 div#about{
     height: 90vh;
@@ -97,6 +83,34 @@ p#abt, p#edu, p#edd{
 
 
 
+
+@media only screen and (max-width: 710px) {
+    p#name {
+        top: 43%;
+        font-size: 3em;
+    }
+    p#ht{
+        font-size: 1.98em;
+    }
+    p#abt, p#edu, p#edd{
+        font-size: 1.6em;
+    }
+  }
+
+  @media only screen and (max-width: 555px) {
+    p#name {
+        font-size: 3em;
+    }
+    p#ht{
+        font-size: 1.68em;
+    }
+    #liner{
+        font-size: 1.6em !important;
+    }
+    p#abt, p#edu, p#edd{
+        font-size: 1em;
+    }
+  }
 
 
 @font-face {
@@ -132,26 +146,4 @@ p#abt, p#edu, p#edd{
           -ms-user-select: none; /* Internet Explorer/Edge */
               user-select: none; /* Non-prefixed version, currently
                                     supported by Chrome, Edge, Opera and Firefox */
-  }
-
-  @media only screen and (max-width: 710px) {
-    p#name {
-        top: 43%;
-        font-size: 3em;
-    }
-    p#ht{
-        font-size: 1.98em;
-    }
-  }
-
-  @media only screen and (max-width: 415px) {
-    p#name {
-        font-size: 3em;
-    }
-    p#ht{
-        font-size: 1.68em;
-    }
-    #liner, #cyan, #pink{
-        font-size: 1.6em !important;
-    }
   }
