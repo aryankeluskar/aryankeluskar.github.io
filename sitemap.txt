@@ -1,0 +1,8 @@
+1 - home page -     stylised welcome page to offer links to resume, navbar, about, skills, stacks
+2 - videos -        link to Techynologion, list of all vids from youtube api
+3 - Techynologion - Tailblocks designed, purple aesthetic, div for aryverse, div for videos, div for stats
+4 - linktree, but better
+5 - projects -      toggle thumbnails, divs: websites, apps, shortfilms, top videos, blender, flexboxed
+
+TBA:
+6 - player ui -     hotstar style, aryverse player

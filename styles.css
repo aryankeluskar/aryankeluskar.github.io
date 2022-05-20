@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 .navbar-nav{
     font-size: 1.5em;
     opacity: 80%;
     color: white;
+}
+.nav-item{
+    padding-left: 0.195em;
+    padding-right: 0.195em;
+    
+    font-family:'Courier New', Courier, monospace;
 }
 .nav-item:hover, .navbar-brand:hover{
     background-color: #323c4e;
@@ -10,12 +18,12 @@
     /* add animation later */
 }
 
-#app{
-    background-image: url(back.png);
-}
 
 #hey{
-    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("back.png");
+    height: 95vh;
     width: 100%;
 }
 
@@ -23,7 +31,7 @@ p#ht{
     font-size: 3.3em;
     color: white;
     font-weight: 499;
-    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Open Sans';
     position: absolute;
     top: 35%;
     left: 5%;
@@ -31,8 +39,9 @@ p#ht{
 }
 
 p#name{
-    font-family: name;
+    font-family: name;    
     color: white;
+    font-weight: 100;
     position: absolute;
     top: 48%;
     left: 5%;
@@ -42,14 +51,14 @@ p#name{
 
 
 p#liner{
-    font-family: "Open Sans Light";
+    font-family: "Open Sans";
     color: white;
     position: absolute;
     top: 65vh;
     left: 5%;
     font-size: 1.902em;
     z-index: 11;
-    text-shadow: 0 0.03em 0 cyan, 0 -0.04em 0 #f0f;
+    text-shadow: 0 0.03em 0 cyan, 0 -0.03em 0 #f0f;
 }
 
 
@@ -58,8 +67,9 @@ p#liner{
 
 
 div#about{
-    height: 90vh;
+    height: 100vh;
     width: 100%;
+    background-color: #343536;
 }
 
 p#habt{
@@ -68,18 +78,62 @@ p#habt{
     opacity: 0.75;
     font-family: "Open Sans Extrabold";
     margin-left: 5%;
-    /* padding-top: 5%; */
+    padding-top: 3%;
     /* font-weight: 800; */
 }
 
 p#abt, p#edu, p#edd{
-    margin-left: 5%;
     margin-right: 20%;
     color: #f6f6f6;
-    font-size: 1.86em;
+    font-size: 1.66em;
     text-shadow: 0 0.1em 0.1em #000;
     font-family: text;
 }
+
+p#abt{
+    margin-left: 5%;
+}
+p#edd{
+    display: inline;width: fit-content;margin-right: -0.5em;font-weight: 600;font-size: 2em;text-shadow: 0 0.06em 0.1em #000;
+}
+
+div#edudet{
+    margin-left:5%;
+}
+
+
+
+div#stack{
+    height: 100vh;
+    width: 100%;
+    background: #343536ef;
+}
+p#tech{
+    font-size: 3.626em;
+    color: whitesmoke;
+    opacity: 0.75;
+    font-family: "Open Sans Extrabold";
+    margin-left: 5%;
+    padding-top: 5%;
+    /* font-weight: 800; */
+}
+
+
+@media only screen and (max-width: 745px) {
+    .nav-item{
+        padding-left: 0.15em;
+        padding-right: 0.15em;
+        font-size: 0.75em;
+        font-family:'Courier New', Courier, monospace;
+    }
+}
+
+
+
+
+
+
+
 
 
 
@@ -87,28 +141,43 @@ p#abt, p#edu, p#edd{
 @media only screen and (max-width: 710px) {
     p#name {
         top: 43%;
-        font-size: 3em;
+        font-size: 4em;
     }
     p#ht{
-        font-size: 1.98em;
+        font-size: 2.98em;
     }
     p#abt, p#edu, p#edd{
         font-size: 1.6em;
+    }
+    div#about{
+        height: 100vh;
     }
   }
 
   @media only screen and (max-width: 555px) {
     p#name {
-        font-size: 3em;
+        font-size: 3.9em;
+        line-height: 135%;
     }
     p#ht{
-        font-size: 1.68em;
+        top: 33%;
+        font-size: 2.68em;
     }
-    #liner{
+    p#liner{
+        top: 70%;
         font-size: 1.6em !important;
     }
-    p#abt, p#edu, p#edd{
-        font-size: 1em;
+    p#abt, p#edu{
+        font-size: 1.5em;
+        margin-right: 5%;
+    }
+    p#edd{
+        font-style: 2em !important;
+    }
+    div#about{
+        height: fit-content;
+        width: 100%;
+        padding-bottom: 20vh;
     }
   }
 
@@ -118,13 +187,6 @@ p#abt, p#edu, p#edd{
     src: url(league-spartan.bold.ttf);
 }
 
-/* @font-face kit by Fonts2u (https://fonts2u.com) */ 
-@font-face {
-    font-family:"Open Sans Light";
-    src:url("OpenSans-Light.eot?") format("eot"),url("OpenSans-Light.woff") format("woff"),url("OpenSans-Light.ttf") format("truetype"),url("OpenSans-Light.svg#OpenSans-Light") format("svg");
-    font-weight:normal;
-    font-style:normal;
-}
 
 @font-face {
     font-family:"Open Sans Extrabold";
@@ -136,7 +198,7 @@ p#abt, p#edu, p#edd{
     src: url(GlacialIndifference-Regular.otf);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap');
 
 .noselect {
     -webkit-touch-callout: none; /* iOS Safari */

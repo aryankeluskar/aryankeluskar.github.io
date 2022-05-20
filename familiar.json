@@ -1,0 +1,8 @@
+[
+    {"name":"Java","logo":"fa-brands fa-java"},
+    {"name":"Python","logo":"fa-brands fa-python"},
+    {"name":"HTML","logo":"fa-brands fa-html5"},
+    {"name":"Vanilla CSS","logo":"fa-brands fa-css3-alt"},
+    {"name":"Vanilla JS","logo":"fa-brands fa-js"},
+    {"name":"Bootstrap","logo":"fa-brands fa-bootstrap"}
+]
