@@ -107,14 +107,18 @@ div#stack{
     height: 100vh;
     width: 100%;
     background: #343536ef;
+    justify-content: center;
 }
 div#things{
-    margin-left:5%;
+    padding: 0px;
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-
+    position: relative;
 }
 p#tech{
+    /* Heading */
     font-size: 3.626em;
     color: whitesmoke;
     opacity: 0.75;
@@ -127,14 +131,11 @@ p.stack{
     display: inline;
     color: white;
     margin-right: 0.5em;
-    
-    /* padding: 2em 0.3em;
-    padding-left: 0 !important; */
-    font-size: 2em;
+    font-size: 1.5em;
 }
 #stack_logo{
     color: whitesmoke;
-    font-size: 2em;
+    font-size: 1.5em;
     /* margin-right: 1.7em; */
 }
 div.sitem{
@@ -172,11 +173,17 @@ div.sitem:hover i#stack_logo{
     }
 }
 
-
-
-
-
-
+@media only screen and (max-width: 893px) {
+    div#stack{
+        height: fit-content;
+    }
+    p#tech{
+        font-size: 2.5em;
+    }
+    p#habt{
+        font-size: 2.5em;
+    }
+}
 
 
 

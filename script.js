@@ -14,7 +14,7 @@ function cl(){
     var items = mydata;
     for(var i = 0; i < items.length; i++) {
         const item = document.createElement("div");
-        item.className="sitem";
+        item.className="sitem noselect";
         const nam_item = document.createElement("p");
         nam_item.className="stack";
         nam_item.innerHTML=mydata[i].name;
