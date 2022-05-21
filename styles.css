@@ -108,6 +108,12 @@ div#stack{
     width: 100%;
     background: #343536ef;
 }
+div#things{
+    margin-left:5%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
 p#tech{
     font-size: 3.626em;
     color: whitesmoke;
@@ -116,6 +122,44 @@ p#tech{
     margin-left: 5%;
     padding-top: 5%;
     /* font-weight: 800; */
+}
+p.stack{
+    display: inline;
+    color: white;
+    margin-right: 0.5em;
+    
+    /* padding: 2em 0.3em;
+    padding-left: 0 !important; */
+    font-size: 2em;
+}
+#stack_logo{
+    color: whitesmoke;
+    font-size: 2em;
+    /* margin-right: 1.7em; */
+}
+div.sitem{
+    padding-bottom: 0.35em;
+    padding-top: 0.35em;
+    margin: 0.3em 0.3em;
+    /* margin-right: 0.5em;     */
+    text-align: center;
+    width: 16em;
+    background-color: rgba(245, 245, 245, 0.031);
+    border-radius: 0.5em;
+    opacity: 90% !important; 
+}
+div.sitem:hover {
+    background-color: rgba(245, 245, 245, 0.404);
+    border-radius: 0.5em;
+    opacity: 90% !important; 
+}
+
+div.sitem:hover p.stack{
+    color: #000;
+}
+
+div.sitem:hover i#stack_logo{
+    color: #000;
 }
 
 

@@ -1,0 +1,15 @@
+var mydata = [
+    {"name":"Java","logo":"fa-brands fa-java"},
+    {"name":"Python","logo":"fa-brands fa-python"},
+    {"name":"HTML","logo":"fa-brands fa-html5"},
+    {"name":"Vanilla CSS","logo":"fa-brands fa-css3-alt"},
+    {"name":"Vanilla JS","logo":"fa-brands fa-js"},
+    {"name":"Bootstrap","logo":"fa-brands fa-bootstrap"},
+    {"name":"Tailwind","logo":"fa-brands fa-"},
+    {"name":"ReactJS","logo":"fa-brands fa-react"},
+    {"name":"Git","logo":"fa-brands fa-git-alt"},
+    {"name":"GitHub","logo":"fa-brands fa-github"},
+    {"name":"Flutter","logo":"fa-brands fa-android"},
+    {"name":"Arduino","logo":"fa-solid fa-microchip"},
+    {"name":"Raspberry Pi","logo":"fa-brands fa-raspberry-pi"},
+]

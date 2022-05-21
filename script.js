@@ -7,14 +7,7 @@ function cl(){
 }
 
     console.log("hi");
-    var mydata = [
-        {"name":"Java","logo":"fa-brands fa-java"},
-        {"name":"Python","logo":"fa-brands fa-python"},
-        {"name":"HTML","logo":"fa-brands fa-html5"},
-        {"name":"Vanilla CSS","logo":"fa-brands fa-css3-alt"},
-        {"name":"Vanilla JS","logo":"fa-brands fa-js"},
-        {"name":"Bootstrap","logo":"fa-brands fa-bootstrap"}
-    ]
+    
     console.log(mydata);
     var main_div = document.getElementById("things");
     console.log(main_div);
@@ -22,6 +15,14 @@ function cl(){
     for(var i = 0; i < items.length; i++) {
         const item = document.createElement("div");
         item.className="sitem";
-        item.innerHTML=mydata[i].name;
-        main_div.appendChild(item)
+        const nam_item = document.createElement("p");
+        nam_item.className="stack";
+        nam_item.innerHTML=mydata[i].name;
+        const img_item = document.createElement("i");
+        img_item.id="stack_logo";
+        img_item.className=mydata[i].logo+" fa-3x";
+        console.log(img_item);
+        item.appendChild(nam_item);
+        item.appendChild(img_item);
+        main_div.appendChild(item);
     }
