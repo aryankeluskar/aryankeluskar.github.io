@@ -167,6 +167,9 @@ p#projlink, p#videolink{
     margin-bottom: 0;
     /* padding-top: 5%; */
 }
+p#videolink{
+    margin-bottom: 3em;
+}
 a, a:focus, a:active {
     text-decoration: none !important;
     color: whitesmoke !important;
@@ -236,6 +239,9 @@ i.con{
 @media only screen and (max-width: 655px){
     p#projlink, p#videolink{
         font-size: 2em;
+    }
+    div#footer{
+    height: fit-content;
     }
 }
 
