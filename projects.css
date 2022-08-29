@@ -1,0 +1,62 @@
+.navbar-nav{
+    font-size: 1.5em;
+    /* opacity: 80%; */
+    color: white;
+}
+.nav-item{
+    padding-left: 0.195em;
+    padding-right: 0.195em;
+    
+    font-family:'Courier New', Courier, monospace;
+}
+.nav-item:hover, .navbar-brand:hover{
+    background-color: #323c4e;
+    border-radius: 0.3em;
+    opacity: 90% !important; 
+    /* add animation later */
+}
+
+@media only screen and (max-width: 745px) {
+    .nav-item{
+        padding-left: 0.15em;
+        padding-right: 0.15em;
+        font-size: 0.75em;
+        font-family:'Courier New', Courier, monospace;
+    }
+}
+
+
+@font-face {
+    font-family: name;
+    src: url(league-spartan.bold.ttf);
+}
+
+
+@font-face {
+    font-family:"Open Sans Extrabold";
+    src: url(OpenSans-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: text;
+    src: url(GlacialIndifference-Regular.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap');
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
+
+
+body{
+    background-image: url('back.png');
+    
+    background-size: cover;
+}

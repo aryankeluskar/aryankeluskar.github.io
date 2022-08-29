@@ -2,7 +2,7 @@
 
 .navbar-nav{
     font-size: 1.5em;
-    opacity: 80%;
+    /* opacity: 80%; */
     color: white;
 }
 .nav-item{
@@ -172,7 +172,7 @@ p#videolink{
 }
 a, a:focus, a:active {
     text-decoration: none !important;
-    color: whitesmoke !important;
+    /* color: whitesmoke !important; */
     color: inherit;
     }
 a:hover{
