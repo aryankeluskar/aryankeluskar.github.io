@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Solway:wght@450&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Solway:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Solway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@450&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@500&family=Solway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+
+body {
+    margin: 0;
+}
+
+div#name {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url('./landerBG1.png');
+    background-size: cover;
+    background-color: whitesmoke;
+
+    /* opacity: 90%; */
+}
+
+.topnav {
+    overflow: hidden;
+    position: relative;
+
+}
+
+.topnav #myLinks {
+    display: block;
+    margin-left: 10em;
+    margin-top: 1em;
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 2.5vh;
+    font-family: 'Solway', serif;
+    font-weight: 600;
+}
+
+.topnav a.icon {
+    float: right;
+}
+
+.active {
+    color: white;
+}
+
+p#landerName {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 4em;
+    margin-left: 3em;
+    margin-top: 2em;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    /* display: block;
+    font-size: 2em; */
+    /* margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; */
+    /* font-weight: bold; */
+}
+
+p#smolDescription {
+    font-family: 'Solway';
+    font-size: 2em;
+    margin-left: 6em;
+    font-weight: 450;
+
+}
+
+p#chai {
+    font-family: 'Solway';
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-left: 44em;
+    margin-top: 2em;
+}
+
+a.nameButtons {
+    /* background-color: blueviolet; */
+    padding: 0.5em 1.5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    font-family: 'Solway', serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+}
+
+
+a#contactB {
+    margin-left: 7.8em;
+    background-color: rgba(255, 0, 0, 0.33);
+}
+
+a#contactB:hover {
+    margin-left: 7.8em;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+
+a#projectsB {
+    background-color: rgba(24, 0, 255, 0.33);
+}
+
+a#projectsB:hover {
+    background-color: rgba(24, 0, 255, 0.5);
+}
+
+a#resumeB {
+    background-color: rgba(0, 255, 75, 0.33);
+}
+
+a#resumeB:hover {
+    background-color: rgba(0, 255, 75, 0.5);
+}
+
+
+div#aboutDiv {
+    width: 100%;
+    height: 90vh;
+    margin: 0;
+    padding: 0;
+    background-image: url('./image\ 13.png');
+    /* background-image: url("./landerBG.png"); */
+    background-size: cover;
+    background-color: whitesmoke;
+}
+
+h1#aboutMe {
+    font-size: 'Raleway';
+    font-size: 3em;
+    font-weight: 100;
+}
+
+img#puzzle {
+    margin-left: 10em;
+    margin-top: 8em;
+    width: 15em;
+}
+
+h1#aboutMe {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 3em;
+    margin-left: 4em;
+    /* margin-top: 10em; */
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.25);
+}
+
+p#nameAbout {
+    font-family: 'Raleway';
+    font-weight: 450;
+    font-size: 3.5em;
+    margin-left: 0.5em;
+    margin-top: 2em;
+    margin-bottom: 0.3em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.25);
+    background-color: #FFF9A6;
+    padding: 0.1em 0.2em;
+}
+
+p#smolDef,
+p#locs {
+    font-family: 'Karma';
+    font-weight: 500;
+    font-size: 1.5em;
+    margin-left: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
+    /* background-color: #FFF9A6; */
+    /* padding: 0.2em; */
+}
+
+p#bigDef {
+    font-family: 'source sans 3';
+    font-weight: 300;
+    font-size: 1.5em;
+    margin-left: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 0;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
+}
+
+p#pronouns {
+    font-family: 'karma';
+    font-weight: 300;
+    font-size: 2em;
+    margin-left: 0.5em;
+    margin-top: 4.5em;
+    margin-bottom: 0;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
+}
+
+span.highlight {
+    background-color: #FFF9A6;
+    padding: 0.1em 0.1em;
+}
+
+img#speaker {
+    margin-left: 0.5em;
+    font-size: 1.5em;
+}
+
+div#contactDiv {
+    color: whitesmoke;
+    background-color: black;
+    /* background-image: url("./gridBG.png"); */
+    background-size: cover;
+    /* padding-left: 5%; */
+    padding-top: 3em;
+    height: 25vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+p#want {
+    font-family: "solway";
+    font-size: 2em;
+    margin-left: 3em;
+    width: fit-content;
+}
+
+.socFirst{
+    height: 1.5em;
+    margin-right: 0.5em;
+}
+
+a#email{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+p#connect {
+    font-family: "karma";
+    padding-left: 5em;
+    font-size: 1.5em;
+    width: fit-content;
+    margin-right: 5em;
+}
+
+
+svg{
+    margin-left: 1em;
+    height: 3em;
+    width: 3em;
+    color: whitesmoke;
+}
+
+span{
+    margin-top: -5em;
+}
