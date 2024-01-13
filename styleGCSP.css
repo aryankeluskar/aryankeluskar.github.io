@@ -144,7 +144,7 @@ div#moreAbout {
 }
 
 img#puzzle {
-    margin-left: 15vw;
+    margin-left: 10vw;
     margin-top: 0vh;
     width: 10vw;
 }
@@ -160,7 +160,8 @@ h1#aboutMe {
     font-family: 'Raleway';
     font-weight: 400;
     font-size: 5vh;
-    margin-left: 15vw;
+    margin-left: 10vw;
+    margin-right: 3vw;
     /* margin-top: 10em; */
     text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.25);
 }
