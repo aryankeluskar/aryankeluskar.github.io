@@ -18,7 +18,7 @@ div#name {
     height: 100vh;
     margin: 0;
     padding: 0;
-    background-image: url('./landerBG1.png');
+    background-image: url('./Frame2.png');
     background-size: cover;
     background-color: whitesmoke;
 
@@ -131,12 +131,13 @@ a#resumeB:hover {
 }
 
 
-div#aboutDiv {
+div#aboutDiv,
+div#moreAbout {
     width: 100%;
-    height: 90vh;
+    height: fit-content;
     margin: 0;
     padding: 0;
-    background-image: url('./image\ 13.png');
+    /* background-image: url('./image\ 13.png'); */
     /* background-image: url("./landerBG.png"); */
     background-size: cover;
     background-color: whitesmoke;
@@ -144,9 +145,16 @@ div#aboutDiv {
 
 img#puzzle {
     margin-left: 15vw;
-    margin-top: 12vh;
-    width: 15vw;
+    margin-top: 0vh;
+    width: 10vw;
 }
+
+img#puzzle2 {
+    margin-right: 5vw;
+    margin-top: 0vh;
+    width: 10vw;
+}
+
 
 h1#aboutMe {
     font-family: 'Raleway';
@@ -157,24 +165,38 @@ h1#aboutMe {
     text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.25);
 }
 
+h1#aboutMe2 {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 5vh;
+    margin-right: 5vw;
+    /* margin-top: 10em; */
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.25);
+}
+
 p#nameAbout {
     font-family: 'Raleway';
     font-weight: 450;
-    font-size: 3.5em;
-    margin-left: 0.5em;
-    margin-top: 2em;
-    margin-bottom: 0.3em;
+    font-size: 6.9vh;
+    margin-left: 1.5vw;
+    margin-top: 15vh;
+    margin-bottom: 3vh;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
     box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.25);
     background-color: #FFF9A6;
     padding: 0.1em 0.2em;
 }
 
+#flag {
+    /* margin-left: 1vw; */
+    height: 2.5vh;
+}
+
 p#smolDef,
 p#locs {
     font-family: 'Karma';
     font-weight: 500;
-    font-size: 1.5em;
+    font-size: 3vh;
     margin-left: 1.5em;
     margin-top: 0;
     margin-bottom: 0;
@@ -186,11 +208,23 @@ p#locs {
 p#bigDef {
     font-family: 'source sans 3';
     font-weight: 300;
-    font-size: 1.5em;
+    font-size: 3vh;
+    margin-left: 10vw;
+    margin-top: 2em;
+    margin-right: 5vw;
+    margin-bottom: 5vh;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
+}
+
+p#bigDef1 {
+    font-family: 'source sans 3';
+    font-weight: 300;
+    font-size: 3vh;
     margin-left: 1.5em;
     margin-top: 2em;
     margin-bottom: 0;
     text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
+    margin-right: 6vw;
 }
 
 p#pronouns {
@@ -210,7 +244,7 @@ span.highlight {
 
 img#speaker {
     margin-left: 0.5em;
-    font-size: 1.5em;
+    font-size: 10em;
 }
 
 div#contactDiv {
@@ -219,15 +253,16 @@ div#contactDiv {
     /* background-image: url("./gridBG.png"); */
     background-size: cover;
     /* padding-left: 5%; */
-    padding-top: 3em;
-    height: 25vh;
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+    /* height: 25vh; */
     width: 100%;
     overflow: hidden;
 }
 
 p#want {
     font-family: "solway";
-    font-size: 2em;
+    font-size: 4vh;
     margin-left: 3em;
     width: fit-content;
 }
@@ -245,16 +280,16 @@ a#email{
 p#connect {
     font-family: "karma";
     padding-left: 5em;
-    font-size: 1.5em;
+    font-size: 3vh;
     width: fit-content;
     margin-right: 5em;
 }
 
 
 svg{
-    margin-left: 1em;
-    height: 3em;
-    width: 3em;
+    margin-left: 2vw;
+    height: 5vh;
+    width: 5vh;
     color: whitesmoke;
 }
 
