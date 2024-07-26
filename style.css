@@ -87,7 +87,10 @@ p#chai {
 }
 
 img.pfp {
-    
+    position: absolute;
+    height: 60vh;
+    left: 60vw;
+    top: 20vh;
 }
 
 a.nameButtons {
