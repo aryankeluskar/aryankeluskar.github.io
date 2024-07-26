@@ -18,10 +18,9 @@ div#name {
     height: 100vh;
     margin: 0;
     padding: 0;
-    background-image: url('./landerBG1.png');
-    background-size: cover;
+    background-image: url('./heroBGplain.png');
+    background-size: contain;
     background-color: whitesmoke;
-
     /* opacity: 90%; */
 }
 
@@ -85,6 +84,10 @@ p#chai {
     font-size: 4vh;
     margin-left: 67vw;
     margin-top: 2em;
+}
+
+img.pfp {
+    
 }
 
 a.nameButtons {
