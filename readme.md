@@ -5,7 +5,7 @@ This is the repository for my personal website. It is a static website that is h
 - Scripting: [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - Styling: [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - Deployment: [GitHub Pages](https://pages.github.com/), (Future: [Cloudflare](https://www.cloudflare.com/))
-- Domain: [GitHub Pages](https://pages.github.com/), (Future: [Cloudflare](https://www.cloudflare.com/))
+- Domain: [Cloudflare Registrar](https://www.cloudflare.com/products/registrar/)
 - SSL: None, (Future: TBD)
 - Analytics: None, (Future: TBD)
 
