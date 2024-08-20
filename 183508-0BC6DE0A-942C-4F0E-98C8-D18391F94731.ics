@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+PRODID:-//E2E Advising LLC.//Appointment Manager//EN
+VERSION:2.0
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=en-us:Tempe Last names: Kas-L (In-Person) - Appointment with Sara Jarvie - In Person Advising
+CLASS:PUBLIC
+CREATED:20240727T073817Z
+DESCRIPTION:Tempe Last names: Kas-L (In-Person) - Appointment with Sara Jarvie - In Person Advising -  
+DTSTART:20240729T163000Z
+DTEND:20240729T170000Z
+SEQUENCE:0
+UID:bdfc2966-d7ad-4ba2-b69e-d6cbe6b134ab
+LOCATION:Honors Hall 239 
+END:VEVENT
+END:VCALENDAR

@@ -70,6 +70,15 @@ p#landerName {
     /* font-weight: bold; */
 }
 
+
+img.pfp {
+    position: absolute;
+    height: 60vh;
+    left: 60vw;
+    top: 20vh;
+}
+
+
 p#smolDescription {
     font-family: 'Solway';
     font-size: 4vh;
@@ -84,13 +93,6 @@ p#chai {
     font-size: 4vh;
     margin-left: 67vw;
     margin-top: 2em;
-}
-
-img.pfp {
-    position: absolute;
-    height: 60vh;
-    left: 60vw;
-    top: 20vh;
 }
 
 a.nameButtons {
