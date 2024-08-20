@@ -12,7 +12,8 @@ This is the repository for my personal website. It is a static website that is h
 # TODO
 
 - [x] Add a favicon
-- [ ] Fix the hero image on the home page
+- [x] Fix the hero image on the home page
+- [ ] Have hyperlinks and images to hometowns
 - [ ] Update the resume link
 - [ ] Add projects to the projects page
 - [ ] Paralax scrolling on the home page
