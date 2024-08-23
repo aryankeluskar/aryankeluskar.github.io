@@ -18,7 +18,7 @@ div#name {
     height: 100vh;
     margin: 0;
     padding: 0;
-    background-image: url('./heroBGplain.png');
+    background-image: url('../heroBGplain.png');
     background-size: contain;
     background-color: whitesmoke;
 
@@ -270,7 +270,7 @@ div#contactDiv {
 
 p#want {
     font-family: "solway";
-    font-size: 4vh;
+    font-size: 2vw;
     margin-left: 3em;
     width: fit-content;
 }
