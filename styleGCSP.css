@@ -18,8 +18,8 @@ div#name {
     height: 100vh;
     margin: 0;
     padding: 0;
-    background-image: url('./Frame2.png');
-    background-size: cover;
+    background-image: url('./heroBGplain.png');
+    background-size: contain;
     background-color: whitesmoke;
 
     /* opacity: 90%; */
@@ -69,6 +69,13 @@ p#landerName {
     margin-inline-start: 0px;
     margin-inline-end: 0px; */
     /* font-weight: bold; */
+}
+
+img.pfp {
+    position: absolute;
+    height: 60vh;
+    left: 60vw;
+    top: 20vh;
 }
 
 p#smolDescription {
