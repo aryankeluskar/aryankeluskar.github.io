@@ -18,7 +18,7 @@ div#name {
     height: 100vh;
     margin: 0;
     padding: 0;
-    background-image: url('./heroBGplain.png');
+    background-image: url('./static/heroBGplain.png');
     background-size: contain;
     background-color: whitesmoke;
     /* opacity: 90%; */
@@ -144,7 +144,7 @@ div#aboutDiv {
     height: 90vh;
     margin: 0;
     padding: 0;
-    background-image: url('./image\ 13.png');
+    background-image: url('./static/image\ 13.png');
     /* background-image: url("./landerBG.png"); */
     background-size: cover;
     background-color: whitesmoke;
